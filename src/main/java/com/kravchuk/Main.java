@@ -39,8 +39,7 @@ public class Main {
 
 //        Stream<Integer> stream;
 //        Stream.generate(() -> 100).forEach(System.out::print);
-//        collection.stream().reduce((s1, s2) -> s1 + s2).orElse("10"); (???) (Позволяет выполнять агрегатные функции
-//                                                                             на всей коллекцией и возвращать один результат)
+//        collection.stream().reduce((s1, s2) -> s1 + s2).orElse("10");
 //        collection.stream().forEach(System.out::print);
 //        collection.stream().map((s) -> s + "_g").collect(Collectors.toList()).forEach(System.out::print);
 //        collection.stream().map(String::toUpperCase).peek((e) -> System.out.print(e + ",")).
